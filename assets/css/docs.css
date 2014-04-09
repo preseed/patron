@@ -20,6 +20,10 @@ h3 code {
   font-size: 14px;
   font-weight: normal;
 }
+@font-face {
+font-family:ama;
+src : url('assets/css/fonts/ama.woff');
+}
 
 
 
