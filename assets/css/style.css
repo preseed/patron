@@ -19,7 +19,7 @@
 .navbar-brand,
 .navbar-toggle {
   padding: 10px;
-  /*margin: 0;*/
+  margin: 0;
   font-size: 16px;
   color: #fff;
 }
@@ -64,6 +64,7 @@
 }
 .menu_img {
   padding-top: 10px;
+  width: 100px;
 }
 
 .page-scroll {
@@ -96,7 +97,7 @@
   .sm-links {
     position: absolute;
   }
-    #first_r {
+  #first_r {
     padding-top: 10%;
   }
 }
@@ -111,10 +112,27 @@
   .sm-links {
     position: relative;
   }
-    #first_r {
-      padding-top: 16%;
+  #first_r {
+    padding-top: 16%;
   }
 }
-#main_img {
-  padding-top: 10%;
+
+/* Reusable css */
+.main {
+  background: #e8e7e7;
+}
+
+.bg-font {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.md-font {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.sm-font {
+  font-weight: 200;
+  font-size: 14px;
 }
