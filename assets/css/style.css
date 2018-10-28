@@ -174,3 +174,66 @@
 .text-primary1 {
   color: #0099ff;
 }
+
+/*Startup c0ver image*/
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/intro-bg.jpg) no-repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media only screen and (max-device-width: 768px) {
+    .intro {
+        background-attachment: scroll;
+    }
+}
+h2.highlight
+{
+    display: inline;
+    background: #ffffff;
+    color: #000000;
+    letter-spacing: 1px;
+    line-height: 180%;
+    padding: 5px 10px;
+}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 30%;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+.center_text {
+  margin-left: 0px;
+}
