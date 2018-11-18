@@ -176,7 +176,7 @@
 }
 
 /*Startup c0ver image*/
-.intro {
+/*.intro {
     display: table;
     width: 100%;
     height: auto;
@@ -197,7 +197,7 @@
     .intro {
         background-attachment: scroll;
     }
-}
+}*/
 h2.highlight
 {
     display: inline;
@@ -206,13 +206,13 @@ h2.highlight
     letter-spacing: 1px;
     line-height: 180%;
     padding: 5px 10px;
-}
-.intro .intro-body {
+}/*
+.intro .intro-body {`
     display: table-cell;
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body {
     font-size: 40px;
 }
 
@@ -233,7 +233,7 @@ h2.highlight
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
-}
-.center_text {
+}*/
+/*.center_text {
   margin-left: 0px;
-}
+}*/
